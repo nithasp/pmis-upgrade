@@ -1,0 +1,29 @@
+export interface IMapVesselImport {
+   berthName: string;
+   documentDate: string;
+   documentNumber: string;
+   filesAgency: any[];
+   filesVS: any[];
+   grossTonnageAgency: number;
+   grossTonnageVS: number;
+   grossTonnageVT: number;
+   imoNumber: string;
+   jettyName: string;
+   notes: any[];
+   officialNumber: string;
+   products: any[];
+   status: string;
+   statusDes: string;
+   vesselFlagImage: string;
+   vesselFlagName: string;
+   vesselName: string;
+   vesselTypeName: string;
+   vsMooringDate: string;
+   vsUnmooringDate: string;
+   vtMooringDate: string;
+   vtUnmooringDate: string;
+   vesselId: number;
+   isSelectGrossTonnageAgency: boolean;
+   isSelectGrossTonnageVS: boolean;
+   isSelectGrossTonnageVT: boolean;
+}

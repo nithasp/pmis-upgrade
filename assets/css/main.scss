@@ -1,0 +1,105 @@
+@font-face {
+   font-family: "anuphan";
+   src: url("../font/Anuphan/Anuphan-Regular.ttf") format("truetype");
+}
+
+@font-face {
+   font-family: "anuphan-medium";
+   src: url("../font/Anuphan/Anuphan-Medium.ttf") format("truetype");
+}
+
+@font-face {
+   font-family: "anuphan-bold";
+   src: url("../font/Anuphan/Anuphan-Bold.ttf") format("truetype");
+}
+
+@font-face {
+   font-family: "anuphan-semi-bold";
+   src: url("../font/Anuphan/Anuphan-SemiBold.ttf") format("truetype");
+}
+
+* {
+   font-family: "anuphan", system-ui, sans-serif;
+}
+
+body {
+   background: #eeebf2;
+}
+
+::-webkit-scrollbar {
+   width: 4px;
+   height: 10px;
+}
+
+::-webkit-scrollbar-track {
+   background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+   background: #eaecf0;
+   border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+   background: #d0d5dd;
+}
+.u-table-list {
+   thead {
+     th {
+       border: 1px solid #d5d9db;
+     }
+   }
+   tbody {
+     td {
+       border: 1px solid #d5d9db;
+     }
+ 
+     tr {
+      transition: background-color 0.2s ease-in-out;
+       &:nth-child(odd) {
+         background-color: white;
+       }
+ 
+       &:nth-child(even) {
+         background-color: #EEEBF2;
+       }
+ 
+       &:hover {
+         background-color: #E3D4F6;
+       }
+     }
+   }
+ }
+ 
+.u-table-list-custom {
+   .th,
+   .td {
+      position: relative;
+
+      &:after {
+         content: "";
+         position: absolute;
+         top: 0;
+         left: -5px;
+         width: 1px;
+         height: 350px;
+         background: #d5d9db;
+      }
+   }
+
+   .table-body .tr {
+      transition: background-color 0.2s ease-in-out;
+
+      &:nth-child(odd) {
+         background-color: white;
+      }
+
+      &:nth-child(even) {
+         background-color: #eeebf2;
+      }
+
+      &:hover {
+         background-color: #e3d4f6;
+      }
+   }
+}
