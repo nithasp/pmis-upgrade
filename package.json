@@ -21,7 +21,6 @@
       "@nuxtjs/svg-sprite": "^1.0.2",
       "@pinia/nuxt": "^0.5.1",
       "@types/leaflet": "^1.9.15",
-      "air-datepicker": "^3.5.3",
       "autonumeric": "^4.10.7",
       "axios": "^1.7.4",
       "chart.js": "^4.4.8",
@@ -38,7 +37,6 @@
       "vue": "^3.4.29",
       "vue-chartjs": "^5.3.2",
       "vue-router": "^4.3.3",
-      "vue2-dropzone": "^3.6.0",
       "vue3-dropzone": "^2.2.1",
       "zod": "^3.23.8"
    },
